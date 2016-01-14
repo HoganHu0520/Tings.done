@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57583A41C47D672005B71EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57583A31C47D672005B71EE /* AppDelegate.swift */; };
+		A57583A61C47D672005B71EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57583A51C47D672005B71EE /* ViewController.swift */; };
+		A57583A91C47D672005B71EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57583A71C47D672005B71EE /* Main.storyboard */; };
+		A57583AC1C47D672005B71EE /* Tings_done.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A57583AA1C47D672005B71EE /* Tings_done.xcdatamodeld */; };
+		A57583AE1C47D672005B71EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57583AD1C47D672005B71EE /* Assets.xcassets */; };
+		A57583B11C47D672005B71EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57583AF1C47D672005B71EE /* LaunchScreen.storyboard */; };
+		A57583BC1C47D672005B71EE /* Tings_doneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57583BB1C47D672005B71EE /* Tings_doneTests.swift */; };
+		A57583C71C47D672005B71EE /* Tings_doneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57583C61C47D672005B71EE /* Tings_doneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A57583B81C47D672005B71EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57583981C47D672005B71EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A575839F1C47D672005B71EE;
+			remoteInfo = Tings.done;
+		};
+		A57583C31C47D672005B71EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57583981C47D672005B71EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A575839F1C47D672005B71EE;
+			remoteInfo = Tings.done;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A57583A01C47D672005B71EE /* Tings.done.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tings.done.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57583A31C47D672005B71EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A57583A51C47D672005B71EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A57583A81C47D672005B71EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A57583AB1C47D672005B71EE /* Tings_done.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tings_done.xcdatamodel; sourceTree = "<group>"; };
+		A57583AD1C47D672005B71EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A57583B01C47D672005B71EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A57583B21C47D672005B71EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57583B71C47D672005B71EE /* Tings.doneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tings.doneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57583BB1C47D672005B71EE /* Tings_doneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tings_doneTests.swift; sourceTree = "<group>"; };
+		A57583BD1C47D672005B71EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57583C21C47D672005B71EE /* Tings.doneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tings.doneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57583C61C47D672005B71EE /* Tings_doneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tings_doneUITests.swift; sourceTree = "<group>"; };
+		A57583C81C47D672005B71EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A575839D1C47D672005B71EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57583B41C47D672005B71EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57583BF1C47D672005B71EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A57583971C47D672005B71EE = {
+			isa = PBXGroup;
+			children = (
+				A57583A21C47D672005B71EE /* Tings.done */,
+				A57583BA1C47D672005B71EE /* Tings.doneTests */,
+				A57583C51C47D672005B71EE /* Tings.doneUITests */,
+				A57583A11C47D672005B71EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A57583A11C47D672005B71EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57583A01C47D672005B71EE /* Tings.done.app */,
+				A57583B71C47D672005B71EE /* Tings.doneTests.xctest */,
+				A57583C21C47D672005B71EE /* Tings.doneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57583A21C47D672005B71EE /* Tings.done */ = {
+			isa = PBXGroup;
+			children = (
+				A57583A31C47D672005B71EE /* AppDelegate.swift */,
+				A57583A51C47D672005B71EE /* ViewController.swift */,
+				A57583A71C47D672005B71EE /* Main.storyboard */,
+				A57583AD1C47D672005B71EE /* Assets.xcassets */,
+				A57583AF1C47D672005B71EE /* LaunchScreen.storyboard */,
+				A57583B21C47D672005B71EE /* Info.plist */,
+				A57583AA1C47D672005B71EE /* Tings_done.xcdatamodeld */,
+			);
+			path = Tings.done;
+			sourceTree = "<group>";
+		};
+		A57583BA1C47D672005B71EE /* Tings.doneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A57583BB1C47D672005B71EE /* Tings_doneTests.swift */,
+				A57583BD1C47D672005B71EE /* Info.plist */,
+			);
+			path = Tings.doneTests;
+			sourceTree = "<group>";
+		};
+		A57583C51C47D672005B71EE /* Tings.doneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A57583C61C47D672005B71EE /* Tings_doneUITests.swift */,
+				A57583C81C47D672005B71EE /* Info.plist */,
+			);
+			path = Tings.doneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A575839F1C47D672005B71EE /* Tings.done */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57583CB1C47D672005B71EE /* Build configuration list for PBXNativeTarget "Tings.done" */;
+			buildPhases = (
+				A575839C1C47D672005B71EE /* Sources */,
+				A575839D1C47D672005B71EE /* Frameworks */,
+				A575839E1C47D672005B71EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tings.done;
+			productName = Tings.done;
+			productReference = A57583A01C47D672005B71EE /* Tings.done.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A57583B61C47D672005B71EE /* Tings.doneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57583CE1C47D672005B71EE /* Build configuration list for PBXNativeTarget "Tings.doneTests" */;
+			buildPhases = (
+				A57583B31C47D672005B71EE /* Sources */,
+				A57583B41C47D672005B71EE /* Frameworks */,
+				A57583B51C47D672005B71EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57583B91C47D672005B71EE /* PBXTargetDependency */,
+			);
+			name = Tings.doneTests;
+			productName = Tings.doneTests;
+			productReference = A57583B71C47D672005B71EE /* Tings.doneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A57583C11C47D672005B71EE /* Tings.doneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57583D11C47D672005B71EE /* Build configuration list for PBXNativeTarget "Tings.doneUITests" */;
+			buildPhases = (
+				A57583BE1C47D672005B71EE /* Sources */,
+				A57583BF1C47D672005B71EE /* Frameworks */,
+				A57583C01C47D672005B71EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57583C41C47D672005B71EE /* PBXTargetDependency */,
+			);
+			name = Tings.doneUITests;
+			productName = Tings.doneUITests;
+			productReference = A57583C21C47D672005B71EE /* Tings.doneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57583981C47D672005B71EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hogan Hu";
+				TargetAttributes = {
+					A575839F1C47D672005B71EE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8KTSQCZE98;
+					};
+					A57583B61C47D672005B71EE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8KTSQCZE98;
+						TestTargetID = A575839F1C47D672005B71EE;
+					};
+					A57583C11C47D672005B71EE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8KTSQCZE98;
+						TestTargetID = A575839F1C47D672005B71EE;
+					};
+				};
+			};
+			buildConfigurationList = A575839B1C47D672005B71EE /* Build configuration list for PBXProject "Tings.done" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A57583971C47D672005B71EE;
+			productRefGroup = A57583A11C47D672005B71EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A575839F1C47D672005B71EE /* Tings.done */,
+				A57583B61C47D672005B71EE /* Tings.doneTests */,
+				A57583C11C47D672005B71EE /* Tings.doneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A575839E1C47D672005B71EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57583B11C47D672005B71EE /* LaunchScreen.storyboard in Resources */,
+				A57583AE1C47D672005B71EE /* Assets.xcassets in Resources */,
+				A57583A91C47D672005B71EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57583B51C47D672005B71EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57583C01C47D672005B71EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A575839C1C47D672005B71EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57583A61C47D672005B71EE /* ViewController.swift in Sources */,
+				A57583AC1C47D672005B71EE /* Tings_done.xcdatamodeld in Sources */,
+				A57583A41C47D672005B71EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57583B31C47D672005B71EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57583BC1C47D672005B71EE /* Tings_doneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57583BE1C47D672005B71EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57583C71C47D672005B71EE /* Tings_doneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A57583B91C47D672005B71EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A575839F1C47D672005B71EE /* Tings.done */;
+			targetProxy = A57583B81C47D672005B71EE /* PBXContainerItemProxy */;
+		};
+		A57583C41C47D672005B71EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A575839F1C47D672005B71EE /* Tings.done */;
+			targetProxy = A57583C31C47D672005B71EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A57583A71C47D672005B71EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57583A81C47D672005B71EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A57583AF1C47D672005B71EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57583B01C47D672005B71EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A57583C91C47D672005B71EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A57583CA1C47D672005B71EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57583CC1C47D672005B71EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Tings.done/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoganhu.Tings-done";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A57583CD1C47D672005B71EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Tings.done/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoganhu.Tings-done";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A57583CF1C47D672005B71EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tings.doneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoganhu.Tings-doneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tings.done.app/Tings.done";
+			};
+			name = Debug;
+		};
+		A57583D01C47D672005B71EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tings.doneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoganhu.Tings-doneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tings.done.app/Tings.done";
+			};
+			name = Release;
+		};
+		A57583D21C47D672005B71EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tings.doneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoganhu.Tings-doneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tings.done;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A57583D31C47D672005B71EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tings.doneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoganhu.Tings-doneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tings.done;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A575839B1C47D672005B71EE /* Build configuration list for PBXProject "Tings.done" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57583C91C47D672005B71EE /* Debug */,
+				A57583CA1C47D672005B71EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57583CB1C47D672005B71EE /* Build configuration list for PBXNativeTarget "Tings.done" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57583CC1C47D672005B71EE /* Debug */,
+				A57583CD1C47D672005B71EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A57583CE1C47D672005B71EE /* Build configuration list for PBXNativeTarget "Tings.doneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57583CF1C47D672005B71EE /* Debug */,
+				A57583D01C47D672005B71EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A57583D11C47D672005B71EE /* Build configuration list for PBXNativeTarget "Tings.doneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57583D21C47D672005B71EE /* Debug */,
+				A57583D31C47D672005B71EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A57583AA1C47D672005B71EE /* Tings_done.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A57583AB1C47D672005B71EE /* Tings_done.xcdatamodel */,
+			);
+			currentVersion = A57583AB1C47D672005B71EE /* Tings_done.xcdatamodel */;
+			path = Tings_done.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A57583981C47D672005B71EE /* Project object */;
+}
