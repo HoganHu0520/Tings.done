@@ -15,6 +15,7 @@
 		A57583B11C47D672005B71EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57583AF1C47D672005B71EE /* LaunchScreen.storyboard */; };
 		A57583BC1C47D672005B71EE /* Tings_doneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57583BB1C47D672005B71EE /* Tings_doneTests.swift */; };
 		A57583C71C47D672005B71EE /* Tings_doneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57583C61C47D672005B71EE /* Tings_doneUITests.swift */; };
+		A57583D61C47D955005B71EE /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57583D51C47D955005B71EE /* CoreDataHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A57583C21C47D672005B71EE /* Tings.doneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tings.doneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57583C61C47D672005B71EE /* Tings_doneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tings_doneUITests.swift; sourceTree = "<group>"; };
 		A57583C81C47D672005B71EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57583D51C47D955005B71EE /* CoreDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,10 @@
 				A57583A31C47D672005B71EE /* AppDelegate.swift */,
 				A57583A51C47D672005B71EE /* ViewController.swift */,
 				A57583A71C47D672005B71EE /* Main.storyboard */,
+				A57583D41C47D8FA005B71EE /* CoreData */,
 				A57583AD1C47D672005B71EE /* Assets.xcassets */,
 				A57583AF1C47D672005B71EE /* LaunchScreen.storyboard */,
 				A57583B21C47D672005B71EE /* Info.plist */,
-				A57583AA1C47D672005B71EE /* Tings_done.xcdatamodeld */,
 			);
 			path = Tings.done;
 			sourceTree = "<group>";
@@ -126,6 +128,15 @@
 				A57583C81C47D672005B71EE /* Info.plist */,
 			);
 			path = Tings.doneUITests;
+			sourceTree = "<group>";
+		};
+		A57583D41C47D8FA005B71EE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A57583D51C47D955005B71EE /* CoreDataHandler.swift */,
+				A57583AA1C47D672005B71EE /* Tings_done.xcdatamodeld */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A57583A61C47D672005B71EE /* ViewController.swift in Sources */,
+				A57583D61C47D955005B71EE /* CoreDataHandler.swift in Sources */,
 				A57583AC1C47D672005B71EE /* Tings_done.xcdatamodeld in Sources */,
 				A57583A41C47D672005B71EE /* AppDelegate.swift in Sources */,
 			);
